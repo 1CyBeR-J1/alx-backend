@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""A simple flask app"""
+"""A simple flask app
+"""
 
 
 from flask import Flask, render_template, request
@@ -35,7 +36,8 @@ def get_locale():
 
 @app.route('/')
 def index():
-    """_summary_"""
+    """_summary_
+    """
     return render_template('2-index.html')
 
 
